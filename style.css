@@ -1,0 +1,116 @@
+:root {
+  /* Color */
+  --white-color: #fff;
+  --black-color: #0F0402;
+  --blue-color: #3993E9;
+  --yellow-color: #FCD514; 
+  --pink-color: #FF9FED;
+  --mint-color: #5EDAB9;
+
+  /* Size */
+  --padding-small-size: 8px;
+  --padding-medium-size: 14px;
+  --margin-size: 8px;
+  --button-size: 60px;
+  --border-size: 5px;
+  --thumbnail-size: 50px;
+
+  /* Font Size */
+  --font-small-size: 12px;
+  --font-medium-size: 14px;
+  --font-large-size: 16px;
+
+  /* animation */
+  --animation-duration: 300ms;
+}
+
+body {
+  background-color: var(--mint-color);
+  height: 100vh; /* 윈도우의 100% */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto Mono';
+}
+
+.logo {
+  cursor: pointer;
+  transition: transform var(--animation-duration) ease;
+}
+
+.btn:hover,
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  transition: transform var(--animation-duration) ease;
+  cursor: pointer;
+  margin-right: var(--margin-size);
+}
+
+.imgBtn {
+  width: var(--button-size);
+  height: var(--button-size);
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.colorBtn {
+  font-size: var(--font-large-size);
+  padding: var(--padding-medium-size);
+  border-radius: var(--border-size);
+}
+
+.item.invisible {
+  display: none;
+}
+
+.buttons .blue {
+  background-color: var(--blue-color);
+}
+
+.buttons .yellow {
+  background-color: var(--yellow-color);
+}
+
+.buttons .pink {
+  background-color: var(--pink-color);
+}
+
+.items {
+  width: 60%;
+  height: 60%;
+  list-style: none;
+  padding-left: 0;
+  overflow-y: scroll;
+}
+
+.items .item {
+  background-color: var(--white-color);
+  display: flex;
+  align-items: center;
+  padding: var(--padding-small-size);
+  margin-bottom: var(--margin-size);
+}
+
+.item.invisible {
+  display: none;
+}
+
+.items .item__thumbnail {
+  width: var(--thumbnail-size);
+  height: var(--thumbnail-size);
+}
+
+.items .item__description {
+  margin-left: var(--margin-size);
+  font-size: var(--font-medium-size);
+}
