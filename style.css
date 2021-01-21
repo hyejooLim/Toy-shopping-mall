@@ -59,8 +59,10 @@ body {
 }
 
 .buttons {
+  width: 50%;
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 
 .colorBtn {
@@ -86,11 +88,17 @@ body {
 }
 
 .items {
-  width: 60%;
-  height: 60%;
+  width: 50%;
+  height: 50%;
   list-style: none;
   padding-left: 0;
   overflow-y: scroll;
+}
+
+@media screen and (max-width: 824px) {
+  .items {
+    width: 424px;
+  }
 }
 
 .items .item {
