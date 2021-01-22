@@ -18,15 +18,14 @@
 
 - 종류별로 아이템 분류하기</br></br>
 &nbsp;6개의 버튼 중 하나를 누르면, 누른 버튼과 같은 타입의 아이템 (tshirt || pants || skirt || blue || yellow || pink) 만 리스트에 나타납니다.</br></br>
-&nbsp;**▶ Examples**
-</br>
-👖 pants 버튼을 눌렀을 때</br></br></br>
+**▶ Examples**</br></br>
+&nbsp;• &nbsp; 👖 &nbsp;pants 버튼을 눌렀을 때</br></br></br>
 
 <p align="center"><img src="https://user-images.githubusercontent.com/71072930/105507443-89566d00-5d0e-11eb-949b-336856ad0435.png" width= "400px" height="500"></p>
 
 </br></br>
 
-- 💛 &nbsp; yellow 버튼을 눌렀을 때</br></br></br>
+&nbsp;• &nbsp; 💛 &nbsp;yellow 버튼을 눌렀을 때</br></br></br>
 
 <p align="center"><img src="https://user-images.githubusercontent.com/71072930/105507916-1bf70c00-5d0f-11eb-8131-cec4843cfbbd.png" width= "400px" height="500"></p>
 
@@ -36,4 +35,5 @@
 
 ## Toy-shopping-mall 보러가기 
 </br> 
-Click [Toy-shopping-mall](https://toy-shopping-mall.netlify.app)
+Click `Toy-shopping-mall` https://toy-shopping-mall.netlify.app
+</br></br>
