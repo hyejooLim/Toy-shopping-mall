@@ -7,7 +7,8 @@
 ## Main Functions
 </br>
 
-- 전체 아이템 보여주기 : 쇼핑몰 로고를 누르면 전체 아이템이 리스트에 나타납니다. 
+- 전체 아이템 보여주기</br></br>
+&nbsp;쇼핑몰 로고를 누르면 전체 아이템이 리스트에 나타납니다. 
 
 </br></br>
 
@@ -15,13 +16,11 @@
 
 </br></br>
 
-- 종류별로 아이템 분류하기 : 6개의 버튼 중 하나를 누르면, 누른 버튼과 같은 타입의 아이템 (tshirt || pants || skirt || blue || yellow || pink) 만 리스트에 나타납니다.
-
-</br></br>
-### Examples
-</br></br>
-
-- 👖 &nbsp; pants 버튼을 눌렀을 때</br></br></br>
+- 종류별로 아이템 분류하기</br></br>
+&nbsp;6개의 버튼 중 하나를 누르면, 누른 버튼과 같은 타입의 아이템 (tshirt || pants || skirt || blue || yellow || pink) 만 리스트에 나타납니다.</br></br>
+&nbsp;**▶ Examples**
+</br>
+👖 pants 버튼을 눌렀을 때</br></br></br>
 
 <p align="center"><img src="https://user-images.githubusercontent.com/71072930/105507443-89566d00-5d0e-11eb-949b-336856ad0435.png" width= "400px" height="500"></p>
 
