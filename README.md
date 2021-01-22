@@ -33,7 +33,7 @@
 * * * 
 </br>
 
-## Toy-shopping-mall 보러가기 
+## Go to the Toy-shopping-mall 
 </br> 
-> *<i class="fa fa-info-circle" aria-hidden="true"></i> 정보 : https://toy-shopping-mall.netlify.app
+https://toy-shopping-mall.netlify.app
 </br></br>
