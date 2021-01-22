@@ -12,7 +12,7 @@
 
 </br></br>
 
-<img src="https://user-images.githubusercontent.com/71072930/105505354-3380c580-5d0c-11eb-9387-0f407b4b2da2.png" width= "400px" height="500" left="30px">
+<img src="https://user-images.githubusercontent.com/71072930/105505354-3380c580-5d0c-11eb-9387-0f407b4b2da2.png" width= "400px" height="500" align="30px">
 
 </br></br>
 
@@ -24,7 +24,6 @@
 <img src="https://user-images.githubusercontent.com/71072930/105507443-89566d00-5d0e-11eb-949b-336856ad0435.png" width= "400px" height="500">
 
 </br></br>
-
 &nbsp; ✔ &nbsp; 💛 &nbsp;**yellow** 버튼을 눌렀을 때</br></br></br>
 
 <img src="https://user-images.githubusercontent.com/71072930/105507916-1bf70c00-5d0f-11eb-8131-cec4843cfbbd.png" width= "400px" height="500">
@@ -36,4 +35,4 @@
 ## Go to the Toy-shopping-mall 
 </br> 
 https://toy-shopping-mall.netlify.app
-</br></br>
+</br>
