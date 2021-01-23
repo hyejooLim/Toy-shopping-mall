@@ -71,10 +71,6 @@ body {
   border-radius: var(--border-size);
 }
 
-.item.invisible {
-  display: none;
-}
-
 .buttons .blue {
   background-color: var(--blue-color);
 }
@@ -107,6 +103,7 @@ body {
   align-items: center;
   padding: var(--padding-small-size);
   margin-bottom: var(--margin-size);
+  border-radius: 6px;
 }
 
 .item.invisible {
