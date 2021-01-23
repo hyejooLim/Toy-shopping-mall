@@ -20,6 +20,7 @@ function createElement(item) {
   li.setAttribute('class', 'item');
   li.setAttribute('data-type', item.type);
   li.setAttribute('data-color', item.color);
+  li.setAttribute('data-size', item.size);
   li.append(img);
   li.append(span);
   return li;

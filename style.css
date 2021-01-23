@@ -6,6 +6,7 @@
   --yellow-color: #FCD514; 
   --pink-color: #FF9FED;
   --mint-color: #5EDAB9;
+  --dark-gray-color: #838383;
 
   /* Size */
   --padding-small-size: 8px;
@@ -14,6 +15,7 @@
   --button-size: 60px;
   --border-size: 5px;
   --thumbnail-size: 50px;
+  --logo-size: 80px;
 
   /* Font Size */
   --font-small-size: 12px;
@@ -34,7 +36,20 @@ body {
   font-family: 'Roboto Mono';
 }
 
-.logo {
+.spanAndLogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.spanAndLogo .text {
+  color: var(--dark-gray-color);
+}
+
+.spanAndLogo .logo {
+  width: var(--logo-size);
+  height: var(--logo-size);
+  margin-top: calc(var(--margin-size) * 3);
   cursor: pointer;
   transition: transform var(--animation-duration) ease;
 }
@@ -44,6 +59,7 @@ body {
   transform: scale(1.1);
 }
 
+/* Buttons */
 .btn {
   background-color: transparent;
   border: none;
@@ -65,6 +81,7 @@ body {
   justify-content: space-around;
 }
 
+.sizeBtn,
 .colorBtn {
   font-size: var(--font-large-size);
   padding: var(--padding-medium-size);
@@ -83,6 +100,11 @@ body {
   background-color: var(--pink-color);
 }
 
+.buttons .sizeBtn {
+  background-color: var(--white-color);
+}
+
+/* Items  */
 .items {
   width: 50%;
   height: 50%;
