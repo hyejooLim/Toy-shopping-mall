@@ -2,7 +2,8 @@
 
 아기자기한 미니 장난감 쇼핑몰 🧸🧩
 
-</br></br>
+</br>
+
 ## Main Functions
 </br>
 
@@ -37,7 +38,5 @@
 </br>
 
 ## Go to Url 
-</br> 
-
 ### https://toy-shopping-mall.netlify.app
 </br>
