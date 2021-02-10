@@ -1,9 +1,9 @@
-# Toy-shopping-mall
+# Toy shopping mall
 
 아기자기한 미니 장난감 쇼핑몰 🧸🧩
 
-`Toy-shopping-mall` 프로젝트를 만드는 데에 3시간 정도 걸렸습니다.
-</br></br>
+</br>
+
 ## Main Functions
 </br>
 
@@ -37,7 +37,6 @@
 * * * 
 </br>
 
-## Go to the Toy-shopping-mall 
-</br> 
-https://toy-shopping-mall.netlify.app
+## Go to Url 
+### https://toy-shopping-mall.netlify.app
 </br>
