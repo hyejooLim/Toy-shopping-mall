@@ -57,7 +57,7 @@ body {
 .container .spanAndLogo .logo {
   width: var(--logo-size);
   height: var(--logo-size);
-  margin-top: calc(var(--margin-size) * 3);
+  margin-top: calc(var(--margin-size) * 2.8);
   cursor: pointer;
   transition: transform var(--animation-duration) ease;
 }
@@ -159,7 +159,7 @@ body {
   }
 
   .container .spanAndLogo .text {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .container .spanAndLogo .logo {
@@ -180,11 +180,20 @@ body {
 
   .sizeBtn,
   .colorBtn {
-    font-size: calc(var(--font-large-size) / 2);
+    font-size: var(--font-small-size);
     padding: calc(var(--padding-medium-size) * 0.7);
   }
 
   .container .items {
     margin-top: 30px;
+  }
+
+  .container .items .item__thumbnail {
+    width: calc(var(--thumbnail-size) * 0.7);
+    height: calc(var(--thumbnail-size) * 0.7);
+  }
+
+  .container .items .item__description {
+    font-size: var(--font-small-size);
   }
 }
