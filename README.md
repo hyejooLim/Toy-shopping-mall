@@ -10,7 +10,7 @@
 
 </br>
 
-## Main Functions
+## 1. Main Functions
 </br>
 
 - 전체 아이템 보여주기</br></br>
@@ -43,6 +43,6 @@
 * * * 
 </br>
 
-## Go to Url 
+## 2. Go to Url 
 ### https://toy-shopping-mall.netlify.app
 </br>
