@@ -1,10 +1,16 @@
 # Toy shopping mall
 
 아기자기한 미니 장난감 쇼핑몰 🧸🧩
+</br></br>
+
+`반응형`으로 제작 중입니다 •••
+
+💨 모바일 진행 중 </br>
+💨 테블릿 진행 예정
 
 </br>
 
-## Main Functions
+## 1. Main Functions
 </br>
 
 - 전체 아이템 보여주기</br></br>
@@ -37,6 +43,6 @@
 * * * 
 </br>
 
-## Go to Url 
+## 2. Go to Url 
 ### https://toy-shopping-mall.netlify.app
 </br>
