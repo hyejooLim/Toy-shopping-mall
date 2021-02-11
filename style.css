@@ -11,7 +11,7 @@
   /* Size */
   --padding-small-size: 8px;
   --padding-medium-size: 14px;
-  --margin-size: 12px;
+  --margin-size: 15px;
   --button-size: 60px;
   --border-size: 5px;
   --thumbnail-size: 50px;
@@ -86,7 +86,7 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin: 15px 0;
 }
 
@@ -145,10 +145,49 @@ body {
   font-size: var(--font-medium-size);
 }
 
+@media screen and (max-width: 1380px) {
+  .imgBtn {
+    width: calc(var(--button-size) * 0.8);
+    height: calc(var(--button-size) * 0.8);
+  }
+
+  .sizeBtn,
+  .colorBtn {
+    font-size: 13px;
+    padding: calc(var(--padding-medium-size) * 0.9);
+  }
+
+  .container .items .item__thumbnail {
+    width: calc(var(--thumbnail-size) * 0.8);
+    height: calc(var(--thumbnail-size) * 0.8);
+  }
+
+  .container .items .item__description {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 1208px) {
+  .buttons {
+    flex-wrap: wrap;
+  }
+
+  .container .buttons .colorBtns,
+  .container .buttons .sizeBtns {
+    margin-top: 10px;
+  }
+}
+
 /* Tablet */
 @media screen and (max-width: 780px) {
   .container {
     width: 70%;
+  }
+}
+
+@media screen and (max-width: 524px) {
+  .container .buttons {
+    margin-bottom: 0;
   }
 }
 
@@ -165,12 +204,6 @@ body {
   .container .spanAndLogo .logo {
     width: calc(var(--logo-size) * 0.8);
     height: calc(var(--logo-size) * 0.8);
-  }
-
-  .container .buttons {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
   }
 
   .imgBtn {
