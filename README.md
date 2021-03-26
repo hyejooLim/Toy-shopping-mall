@@ -1,6 +1,6 @@
-# Toy shopping mall
+# 🧸 Toy shopping mall
 
-아기자기한 미니 장난감 쇼핑몰 🧸🧩
+아기자기한 미니 장난감 쇼핑몰
 </br></br>
 
 `반응형`으로 제작 중입니다 •••
