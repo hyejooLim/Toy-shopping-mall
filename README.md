@@ -23,7 +23,7 @@
 </br></br>
 
 - 종류별로 아이템 분류하기</br></br>
-&nbsp;8개의 버튼 중 하나를 누르면, 누른 버튼과 같은 타입의 아이템 (tshirt || pants || skirt || blue || yellow || pink || small || large) 만 리스트에 나타납니다.</br></br>
+&nbsp;8개의 버튼 중 하나를 누르면, 누른 버튼과 같은 타입의 아이템만 리스트에 나타납니다.</br></br>
 **▶ Examples**</br></br>
 &nbsp; 👖 &nbsp;pants 버튼을 눌렀을 때</br></br></br>
 
