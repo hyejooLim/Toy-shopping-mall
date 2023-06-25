@@ -2,6 +2,11 @@
 
 바닐라 JS로 만든 아기자기한 미니 장난감 쇼핑몰
 
+</br></br>
+
+새로고침 시 데이터가 유지되지 않습니다!
++ Local Storage로 구현하기
+
 </br>
 
 ## 1. Main Functions
